@@ -7,6 +7,14 @@ class Px {
     this.size = size
   }
 
+  clear(){
+    Array.from(Array(this.width), (_,x)=>{
+      Array.from(Array(this.height), (_,y)=>{
+        this.setpx(x, y, 0, 0, 0)
+      })
+    })
+  }
+
   getpx(x,y){
     return this.ctx.getImageData(x * this.size, y * this.size, this.size, this.size).data
   }

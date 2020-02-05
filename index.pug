@@ -1,14 +1,21 @@
 doctype html
 html
   head
-    title Subreddette
-    link(href='./style.css' rel='stylesheet')
+    title Reddit Rainbow
+    link(href='./css/style.css' rel='stylesheet')
   body
     .container
+      h1
+        select#type
+          option hot
+          option new
+          option top
+        |&nbsp;from r/
+        input#edit(value='hongkong' size='8')
       canvas#out
 
     script(src='https://not-an-aardvark.github.io/snoowrap/snoowrap-v1.11.3.min.js')
-    script(src='scripts.js')
-    script(src='./px.js')
-    script(src='./algo.js')
-    script(src='./main.js')
+    script(src='./js/reddit.js')
+    script(src='./js/px.js')
+    script(src='./js/algo.js')
+    script(src='./js/main.js')
