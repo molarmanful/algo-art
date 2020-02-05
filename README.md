@@ -20,13 +20,16 @@ The titles and comments are then split into individual words and cleaned of non-
 
 
 > Hot Posts from r/all on February 5, 2020 22:00
+>
 > ![](https://github.com/molarmanful/rainbow/blob/master/examples/hot_all_02_05_2020_22_00.png)
 
 
 > Hot Posts from r/hongkong on February 5, 2020 21:54
+>
 > ![](https://github.com/molarmanful/rainbow/blob/master/examples/hot_hongkong_02_05_2020_21_54.png)
 
 > Top Posts of All Time from r/art on February 5, 2020 21:58
+>
 > ![](https://github.com/molarmanful/rainbow/blob/master/examples/top_art_02_05_2020_21_58.png)
 
 ## Credits/Licensing
