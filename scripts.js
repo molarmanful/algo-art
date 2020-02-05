@@ -33,14 +33,10 @@ function updateTitles(x){
 	}
 	// console.log(titles);
 }
-counter = 0;
-function updateComments(x, callback){
+
+function updateComments(x){
 	for (let i=0; i<x.comments.length;i++){
 		comments += x.comments[i].body;
-	}
-	counter++;
-	if (counter == 24){
-		console.log(comments);
 	}
 }
 
