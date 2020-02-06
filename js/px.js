@@ -16,7 +16,7 @@ class Px {
   }
 
   getpx(x,y){
-    return this.ctx.getImageData(x * this.size, y * this.size, this.size, this.size).data
+    return this.ctx.getImageData(x * this.size, y * this.size, 1, 1).data.slice(0, 3)
   }
 
   setpx(x,y,r,g,b){
