@@ -12,7 +12,7 @@ The titles and comments are then split into individual words and cleaned of non-
 
 - [Cory Arcangel's Super Mario Clouds](http://www.coryarcangel.com/things-i-made/2002-001-super-mario-clouds)
 - [r/place](https://www.reddit.com/r/place)
-- [r/ooer](https://www.reddit.com/r/ooer)
+- [r/ooer](https://old.reddit.com/r/ooer)
 
 ## Demo/Examples
 
