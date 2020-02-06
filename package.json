@@ -16,7 +16,5 @@
     "url": "https://github.com/molarmanful/algo-art/issues"
   },
   "homepage": "https://github.com/molarmanful/algo-art#readme",
-  "dependencies": {
-    "snoowrap": "^1.20.1"
-  }
+  "dependencies": {}
 }
