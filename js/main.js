@@ -30,9 +30,9 @@ let refresh = _=>{
   r.reset()
   px.clear()
   let sub
-  if(type.value == 'hot') sub = r.getHot(edit.innerText)
-  if(type.value == 'new') sub = r.getNew(edit.innerText)
-  if(type.value == 'top') sub = r.getTopAllTime(edit.innerText)
+  if(type.value == 'hot') sub = r.getHot(edit.value)
+  if(type.value == 'new') sub = r.getNew(edit.value)
+  if(type.value == 'top') sub = r.getTopAllTime(edit.value)
   r.getTitles(sub, res=>{
     r.titles.map((title,i)=>{
       stream(clean(title))
@@ -50,7 +50,7 @@ onload = _=>{
     refresh()
   }
   edit.onkeydown = e=>{
-    edit.size = edit.value.length
+    edit.size = edit.value.length || 1
   }
   edit.onkeyup = e=>{
     if(e.key == 'Enter'){

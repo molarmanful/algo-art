@@ -12,7 +12,7 @@ The titles and comments are then split into individual words and cleaned of non-
 
 - [Cory Arcangel's Super Mario Clouds](http://www.coryarcangel.com/things-i-made/2002-001-super-mario-clouds)
 - [r/place](https://www.reddit.com/r/place)
-- [r/ooer](https://www.reddit.com/r/ooer)
+- [r/ooer](https://old.reddit.com/r/ooer)
 
 ## Demo/Examples
 
@@ -23,12 +23,7 @@ The titles and comments are then split into individual words and cleaned of non-
 >
 > ![](https://github.com/molarmanful/rainbow/blob/master/examples/hot_all_02_05_2020_22_00.png)
 
-
-> Hot Posts from r/hongkong on February 5, 2020 21:54
->
-> ![](https://github.com/molarmanful/rainbow/blob/master/examples/hot_hongkong_02_05_2020_21_54.png)
-
-> Top Posts of All Time from r/art on February 5, 2020 21:58
+> Top Posts of All Time from r/all on February 5, 2020 21:58
 >
 > ![](https://github.com/molarmanful/rainbow/blob/master/examples/top_art_02_05_2020_21_58.png)
 
