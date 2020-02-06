@@ -50,7 +50,7 @@ onload = _=>{
     refresh()
   }
   edit.onkeydown = e=>{
-    edit.size = edit.value.length
+    edit.size = edit.value.length || 1
   }
   edit.onkeyup = e=>{
     if(e.key == 'Enter'){
